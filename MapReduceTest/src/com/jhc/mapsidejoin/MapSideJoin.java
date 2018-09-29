@@ -22,7 +22,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 
-
+//MapSideJoin¿‡
 public class MapSideJoin {
 	
 	static class MapSideJoinMapper extends Mapper<LongWritable, Text, Text, NullWritable>{
